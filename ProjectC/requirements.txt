@@ -1,0 +1,9 @@
+numpy
+pandas
+emoji
+nltk
+textblob
+gensim
+matplotlib
+seaborn
+wordcloud

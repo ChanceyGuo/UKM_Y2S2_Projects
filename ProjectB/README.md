@@ -1,21 +1,34 @@
 ProjectB: IMDB Sentiment & Jena Climate Forecasting
 
 Project Overview
-This notebook uses two public datasets—IMDB Movie Reviews (text classification) and Jena Climate (time-series forecasting).
+This notebook uses two public datasets for two tasks:  
+1. **IMDB Movie Reviews** (binary sentiment classification)  
+2. **Jena Climate** (time-series forecasting of temperature)
 Key steps:
-1. EDA on text (word counts, word clouds) and time series (temperature trends)
-2. Data preprocessing: tokenization & padding for text; scaling for climate data
-3. Build & train RNN and LSTM models for IMDB sentiment analysis
-4. Build & train RNN and LSTM models for Jena climate forecasting
-5. Evaluate performance (accuracy for text; MSE/MAE for forecasting)
+1. Exploratory Data Analysis (word counts, word clouds for text; trend plots for climate)  
+2. Data preprocessing: tokenization & padding for text; scaling & windowing for climate  
+3. Build & train simple RNN and LSTM models on each dataset  
+4. Evaluate performance (accuracy & classification report for IMDB; MSE/MAE for Jena)
 
 Files
 .
 ├── README.md                                          This overview file
 ├── IMDB Sentiment & Jena Climate Forecasting.ipynb    Main analysis and modeling notebook
-├── data.zip                                           Contains Corona_NLP_test.csv &  Corona_NLP_train.csv
+├── data.zip                                           jena_climate_2009_2016.csv
 └── requirements.txt                                   Python dependencies
 
+Data
+- **IMDB reviews**: automatically downloaded by TensorFlow Datasets (`tfds.load('imdb_reviews')`)  
+- **Jena climate**: download the file `jena_climate_2009_2016.csv` from https://www.kaggle.com/datasets and put it into the `data/` folder  
+
+Setup & Usage
+1. Clone repo and enter ProjectB folder  
+2. Install dependencies:
+   pip install -r requirements.txt  
+3. Ensure `data/jena_climate_2009_2016.csv` exists  
+4. Run notebook:
+   jupyter notebook group2_final_version.ipynb  
+   Execute cells in order to reproduce results
 
 
 Main Results
