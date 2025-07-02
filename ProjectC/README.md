@@ -5,12 +5,12 @@ This project loads the Corona_NLP dataset (Corona_NLP_train.csv & Corona_NLP_tes
 
 Files
 .
-├── README.txt                       This overview file  
-├── projectC_notebook.ipynb          Main analysis & modeling notebook  
+├── README.txt                                            This overview file  
+├── COVID19_Tweet_Sentiment_and_Topic_Modeling.ipynb      Main analysis & modeling notebook  
 ├── data/
-│   ├── Corona_NLP_train.csv         Labeled tweets for training  
-│   └── Corona_NLP_test.csv          Unseen tweets for evaluation  
-└── requirements.txt                 Python dependencies
+│   ├── Corona_NLP_train.csv                              Labeled tweets for training  
+│   └── Corona_NLP_test.csv                               Unseen tweets for evaluation  
+└── requirements.txt                                      Python dependencies
 
 Setup & Usage
 1. Clone this repo and navigate to ProjectC folder:  
