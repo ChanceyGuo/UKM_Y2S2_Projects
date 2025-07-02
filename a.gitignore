@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+*.iml
+
+# 操作系统
+.DS_Store
+Thumbs.db
