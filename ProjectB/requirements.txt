@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+seaborn
+tensorflow
+tensorflow-datasets
+wordcloud
+statsmodels
+scikit-learn
