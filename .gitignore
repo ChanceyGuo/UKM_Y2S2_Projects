@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE 配置
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
