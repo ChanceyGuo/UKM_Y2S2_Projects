@@ -5,10 +5,11 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# IDE 配置
+# IDE setting
 .idea/
 .vscode/
 
 # OS
 .DS_Store
 Thumbs.db
+
